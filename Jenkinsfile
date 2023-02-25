@@ -6,7 +6,7 @@ pipeline {
                 checkout([
                     $class: 'GitSCM',
                     branches: [[name: 'main']],
-                    userRemoteConfigs: [[url: 'https://github.com/Sahargaichee/catgory_product.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Sahargaichee/jenkinsfile.git']]
                 ])
             }
         }
